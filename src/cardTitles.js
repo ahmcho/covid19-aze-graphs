@@ -3,7 +3,7 @@ const cardTitles = [
     { title: 'Aktiv xəstə sayı', type: 'active_cases'},
     { title: 'Yoluxanların sayı', type: 'infected_all'},
     { title: 'Ölənlərin sayı', type: 'deaths_all'},
-    { title: 'Testlərin sayı', type: 'active_cases'}
+    { title: 'Testlərin sayı', type: 'tests_all'}
 ]
 
 export default cardTitles;
