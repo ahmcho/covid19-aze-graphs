@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/covid19-aze-graphs/static/css/main.d725c3ff.chunk.css",
-    "main.js": "/covid19-aze-graphs/static/js/main.c2fb3039.chunk.js",
-    "main.js.map": "/covid19-aze-graphs/static/js/main.c2fb3039.chunk.js.map",
-    "runtime-main.js": "/covid19-aze-graphs/static/js/runtime-main.638ba5e8.js",
-    "runtime-main.js.map": "/covid19-aze-graphs/static/js/runtime-main.638ba5e8.js.map",
-    "static/js/2.61b956ad.chunk.js": "/covid19-aze-graphs/static/js/2.61b956ad.chunk.js",
-    "static/js/2.61b956ad.chunk.js.map": "/covid19-aze-graphs/static/js/2.61b956ad.chunk.js.map",
-    "static/js/3.62b22b03.chunk.js": "/covid19-aze-graphs/static/js/3.62b22b03.chunk.js",
-    "static/js/3.62b22b03.chunk.js.map": "/covid19-aze-graphs/static/js/3.62b22b03.chunk.js.map",
+    "main.css": "/covid19-aze-graphs/static/css/main.7fc2f951.chunk.css",
+    "main.js": "/covid19-aze-graphs/static/js/main.c917d154.chunk.js",
+    "main.js.map": "/covid19-aze-graphs/static/js/main.c917d154.chunk.js.map",
+    "runtime-main.js": "/covid19-aze-graphs/static/js/runtime-main.dc4198f0.js",
+    "runtime-main.js.map": "/covid19-aze-graphs/static/js/runtime-main.dc4198f0.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/covid19-aze-graphs/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f083f717.chunk.js": "/covid19-aze-graphs/static/js/2.f083f717.chunk.js",
+    "static/js/2.f083f717.chunk.js.map": "/covid19-aze-graphs/static/js/2.f083f717.chunk.js.map",
+    "static/js/3.3e0281d1.chunk.js": "/covid19-aze-graphs/static/js/3.3e0281d1.chunk.js",
+    "static/js/3.3e0281d1.chunk.js.map": "/covid19-aze-graphs/static/js/3.3e0281d1.chunk.js.map",
     "index.html": "/covid19-aze-graphs/index.html",
     "service-worker.js": "/covid19-aze-graphs/service-worker.js",
     "service-worker.js.map": "/covid19-aze-graphs/service-worker.js.map",
-    "static/css/main.d725c3ff.chunk.css.map": "/covid19-aze-graphs/static/css/main.d725c3ff.chunk.css.map",
-    "static/js/2.61b956ad.chunk.js.LICENSE.txt": "/covid19-aze-graphs/static/js/2.61b956ad.chunk.js.LICENSE.txt"
+    "static/css/2.4c97ca4f.chunk.css.map": "/covid19-aze-graphs/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.7fc2f951.chunk.css.map": "/covid19-aze-graphs/static/css/main.7fc2f951.chunk.css.map",
+    "static/js/2.f083f717.chunk.js.LICENSE.txt": "/covid19-aze-graphs/static/js/2.f083f717.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.638ba5e8.js",
-    "static/js/2.61b956ad.chunk.js",
-    "static/css/main.d725c3ff.chunk.css",
-    "static/js/main.c2fb3039.chunk.js"
+    "static/js/runtime-main.dc4198f0.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f083f717.chunk.js",
+    "static/css/main.7fc2f951.chunk.css",
+    "static/js/main.c917d154.chunk.js"
   ]
 }
