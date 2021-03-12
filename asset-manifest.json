@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/covid19-aze-graphs/static/css/main.7fc2f951.chunk.css",
-    "main.js": "/covid19-aze-graphs/static/js/main.07f8c6d1.chunk.js",
-    "main.js.map": "/covid19-aze-graphs/static/js/main.07f8c6d1.chunk.js.map",
-    "runtime-main.js": "/covid19-aze-graphs/static/js/runtime-main.dc4198f0.js",
-    "runtime-main.js.map": "/covid19-aze-graphs/static/js/runtime-main.dc4198f0.js.map",
+    "main.js": "/covid19-aze-graphs/static/js/main.d7b58ad9.chunk.js",
+    "main.js.map": "/covid19-aze-graphs/static/js/main.d7b58ad9.chunk.js.map",
+    "runtime-main.js": "/covid19-aze-graphs/static/js/runtime-main.f18bcf78.js",
+    "runtime-main.js.map": "/covid19-aze-graphs/static/js/runtime-main.f18bcf78.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/covid19-aze-graphs/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.f083f717.chunk.js": "/covid19-aze-graphs/static/js/2.f083f717.chunk.js",
-    "static/js/2.f083f717.chunk.js.map": "/covid19-aze-graphs/static/js/2.f083f717.chunk.js.map",
-    "static/js/3.3e0281d1.chunk.js": "/covid19-aze-graphs/static/js/3.3e0281d1.chunk.js",
-    "static/js/3.3e0281d1.chunk.js.map": "/covid19-aze-graphs/static/js/3.3e0281d1.chunk.js.map",
+    "static/js/2.07a29381.chunk.js": "/covid19-aze-graphs/static/js/2.07a29381.chunk.js",
+    "static/js/2.07a29381.chunk.js.map": "/covid19-aze-graphs/static/js/2.07a29381.chunk.js.map",
+    "static/js/3.2531254b.chunk.js": "/covid19-aze-graphs/static/js/3.2531254b.chunk.js",
+    "static/js/3.2531254b.chunk.js.map": "/covid19-aze-graphs/static/js/3.2531254b.chunk.js.map",
     "index.html": "/covid19-aze-graphs/index.html",
     "service-worker.js": "/covid19-aze-graphs/service-worker.js",
     "service-worker.js.map": "/covid19-aze-graphs/service-worker.js.map",
     "static/css/2.4c97ca4f.chunk.css.map": "/covid19-aze-graphs/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.7fc2f951.chunk.css.map": "/covid19-aze-graphs/static/css/main.7fc2f951.chunk.css.map",
-    "static/js/2.f083f717.chunk.js.LICENSE.txt": "/covid19-aze-graphs/static/js/2.f083f717.chunk.js.LICENSE.txt"
+    "static/js/2.07a29381.chunk.js.LICENSE.txt": "/covid19-aze-graphs/static/js/2.07a29381.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc4198f0.js",
+    "static/js/runtime-main.f18bcf78.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.f083f717.chunk.js",
+    "static/js/2.07a29381.chunk.js",
     "static/css/main.7fc2f951.chunk.css",
-    "static/js/main.07f8c6d1.chunk.js"
+    "static/js/main.d7b58ad9.chunk.js"
   ]
 }
