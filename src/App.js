@@ -3,6 +3,7 @@ import {useEffect, useState} from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Alert from 'react-bootstrap/Alert';
+import Badge from 'react-bootstrap/Badge';
 import Spinner from 'react-bootstrap/Spinner';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -38,6 +39,16 @@ const App = () => {
     }
   }
 
+  const calculateBadgeColor = (number) => {
+    if(number <= 150){
+      return 'primary'
+    } else if(number > 150 & number <= 300 ) {
+      return 'warning'
+    } else if(number > 300){
+      return 'danger'
+    }
+  }
+
   useEffect(() => {
     if(!navigator.onLine){
       setOnline(false);
@@ -62,10 +73,10 @@ const App = () => {
           caseData.length === 0 || vaccineData.length === 0 ? (  <Spinner style={{ display: "flex",margin: "0 auto" }} animation="border" size="md" variant="primary" /> ) : (
             <>
               <Tabs defaultActiveKey="cases" fill>
-                <Tab eventKey="cases" title="Xəstəlik statistikası">
+                <Tab eventKey="cases" title={<span>Xəstəlik statistikası <Badge pill variant={calculateBadgeColor(caseData[caseData.length-1].infected_today)}>{caseData[caseData.length-1].infected_today}</Badge></span>}>
                   <Cases data={caseData}/>
                 </Tab>
-                <Tab eventKey="vaccines" title="Vaksin statistikası">
+                <Tab eventKey="vaccines" title={<span>Vaksin statistikası <Badge pill variant="primary">{vaccineData[vaccineData.length - 1].vaccines_today}</Badge></span>}>
                   <Vaccines data={vaccineData} />
                 </Tab>
               </Tabs>
