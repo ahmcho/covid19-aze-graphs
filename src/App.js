@@ -71,7 +71,7 @@ const App = () => {
               </Tabs>
             </>
           )
-        ]: (<Alert variant="danger" style={{textAlign: "center"}}>İnternetlə əlaqə kəsilib. Əlaqəni bərpa edib tətbiqi <Alert.Link href="/">yeniləyin</Alert.Link></Alert>)}
+        ]: (<Alert variant="danger" style={{textAlign: "center"}}>İnternetlə əlaqə kəsilib. Əlaqəni bərpa edib tətbiqi <Alert.Link href="/covid19-aze-graphs">yeniləyin</Alert.Link></Alert>)}
         
     </Container>
     </>
