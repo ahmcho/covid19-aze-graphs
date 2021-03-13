@@ -26,3 +26,7 @@ code {
   color: #007bff;
   padding-right: 3rem;
 }
+
+.card-body{
+  text-align: center;
+}
