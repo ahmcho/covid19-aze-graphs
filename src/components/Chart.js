@@ -10,8 +10,8 @@ const LineChartComponent = ({data, lineName, lineType, line_dataKey }) => (
             <YAxis />
             <Tooltip 
               wrapperStyle={{ backgroundColor: "red" }}
-              labelStyle={{ color: "green" }}
-              itemStyle={{ color: "#664434" }}
+              labelStyle={{ color: "#007bff" }}
+              itemStyle={{ color: "black" }}
               formatter={function(value, name) {
                 return `${value}`;
               }}
@@ -20,7 +20,7 @@ const LineChartComponent = ({data, lineName, lineType, line_dataKey }) => (
               }}
             />
             <Legend verticalAlign="top" height={36}/>
-            <Line name={lineName} type={lineType} dataKey={line_dataKey} stroke="#664434" />
+            <Line name={lineName} type={lineType} dataKey={line_dataKey} stroke="black" />
             <Tooltip />
           </LineChart>
       </ResponsiveContainer>
