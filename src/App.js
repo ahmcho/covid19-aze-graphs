@@ -2,6 +2,7 @@
 import {useEffect, useState} from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
+import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -14,6 +15,8 @@ import Vaccines from './components/Vaccines/Vaccines';
 const App = () => {
   const [caseData, setCaseData] = useState([]);
   const [vaccineData, setVaccineData] = useState([]);
+  const [showInfo, setShowInfo] = useState(true);
+  const [online, setOnline] = useState(true);
   
   //Get case data from API
   const fetchCaseData = async () => {
@@ -35,6 +38,14 @@ const App = () => {
     }
   }
 
+  useEffect(() => {
+    if(!navigator.onLine){
+      setOnline(false);
+    } else {
+      setOnline(true);
+    }
+  },[]);
+  
   useEffect(() =>{
     fetchCaseData();
     fetchVaccineData();
@@ -44,9 +55,11 @@ const App = () => {
     <>
       <Container className="p-3">
         <Jumbotron>
-          <h1 className="text-center">Azərbaycan üzrə COVID-19 Statistikası</h1> 
+          <h1 className="text-center">Azərbaycan üzrə COVID-19 Statistikası</h1>
         </Jumbotron>
-        {caseData.length === 0 || vaccineData.length === 0 ? (  <Spinner style={{ display: "flex",margin: "0 auto" }} animation="border" size="md" variant="primary" /> ) : (
+        { showInfo && (<Alert variant="primary" style={{textAlign: "center"}} onClose={() => setShowInfo(false)} dismissible>Bütün məlumatlar <Alert.Link target="_blank" href="https://covid19-azerbaijan.ahmcho.com/">buradan</Alert.Link> alınır.</Alert> )}
+        { online ? [
+          caseData.length === 0 || vaccineData.length === 0 ? (  <Spinner style={{ display: "flex",margin: "0 auto" }} animation="border" size="md" variant="primary" /> ) : (
             <>
               <Tabs defaultActiveKey="cases" fill>
                 <Tab eventKey="cases" title="Xəstəlik statistikası">
@@ -57,7 +70,9 @@ const App = () => {
                 </Tab>
               </Tabs>
             </>
-        )}
+          )
+        ]: (<Alert variant="danger" style={{textAlign: "center"}}>İnternetlə əlaqə kəsilib. Əlaqəni bərpa edib tətbiqi <Alert.Link href="/">yeniləyin</Alert.Link></Alert>)}
+        
     </Container>
     </>
   )
