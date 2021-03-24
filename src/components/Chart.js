@@ -20,7 +20,7 @@ const LineChartComponent = ({data, lineName, lineType, line_dataKey }) => (
               }}
             />
             <Legend verticalAlign="top" height={36}/>
-            <Line name={lineName} type={lineType} dataKey={line_dataKey} stroke="black" />
+            <Line name={lineName} activeDot={{ strokeWidth: 2, r: 7 }} dot={false} type={lineType} dataKey={line_dataKey} stroke="black" strokeWidth={2} />
             <Tooltip />
           </LineChart>
       </ResponsiveContainer>
