@@ -22,7 +22,7 @@ import Vaccines from './components/Vaccines/Vaccines';
 const App = () => {
   const [showInfo, setShowInfo] = useState(true);
   const caseData  = useRequest('https://covid19aze.live/api/cases/all');
-  const vaccineData = useRequest('https://covid19aze.live/api/vaccines/all');
+  const vaccineData = useRequest('https://covid19aze.live/api/v2/vaccines/all');
   const online = useOnline();
   
   return(
