@@ -5,7 +5,7 @@ This frontend is built using following tech:
 * [React]
 * [react-bootstrap]
 * [moment]
-* [covid19 cases api](https://covid19-azerbaijan.ahmcho.com/api/cases/all "covid19 cases api")
+* [covid19 cases api](https://covid19aze.live/api/cases/all "covid19 cases api")
 
    [React]: <https://reactjs.org/>
    [Redux]: <https://redux.js.org/>
